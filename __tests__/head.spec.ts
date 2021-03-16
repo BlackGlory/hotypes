@@ -1,10 +1,10 @@
 import { assertType, Equals } from '@test/utils'
-import { First } from '@src/first'
+import { Head } from '@src/head'
 
-describe('First', () => {
+describe('Head', () => {
   describe('empty tuple', () => {
     it('returns never', () => {
-      type Result = First<[]>
+      type Result = Head<[]>
 
       assertType<Equals<Result, never>>()
     })
@@ -12,7 +12,7 @@ describe('First', () => {
 
   describe('non-empty tuple', () => {
     it('returns first element type', () => {
-      type Result = First<[string, number]>
+      type Result = Head<[string, number]>
 
       assertType<Equals<Result, string>>()
     })

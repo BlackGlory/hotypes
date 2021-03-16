@@ -20,9 +20,9 @@ It is highly recommended to read test cases to make sure you understand what typ
 - ExcludeKeysStrict
 - ExcludeKeys
 - ExcludeNullable
-- First
 - FunctionKeys
 - Getter
+- Head
 - Json
 - KeysStrict
 - Keys
