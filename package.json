@@ -25,8 +25,8 @@
     "clean": "run-p clean:*",
     "clean:build": "rimraf lib",
     "build": "run-p build:*",
-    "build:compile": "tsc --project tsconfig.build.json --module commonjs --target es2018 --outDir lib/es2018",
-    "build:patch": "tscpaths -p tsconfig.build.json -s ./src -o ./lib/es2018",
+    "build:compile": "tsc --project tsconfig.build.json --module commonjs --outDir lib",
+    "build:patch": "tscpaths -p tsconfig.build.json -s ./src -o ./lib",
     "release": "standard-version"
   },
   "husky": {
