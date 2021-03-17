@@ -1,4 +1,4 @@
 export type Head<T extends unknown[]> =
-  T extends [unknown, ...unknown[]]
-  ? T[0]
+  T extends [infer U, ...unknown[]]
+  ? U
   : never

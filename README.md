@@ -26,6 +26,7 @@ It is highly recommended to read test cases to make sure you understand what typ
 - Json
 - KeysStrict
 - Keys
+- Last
 - MapNullablePropsToNonNullableProps
 - MapNullablePropsToOptionalProps
 - MapPropsStrict
