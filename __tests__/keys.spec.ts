@@ -1,17 +1,6 @@
 import { assertType, Equals } from '@test/utils'
 import { Keys } from '@src/keys'
 
-test('Keys<T>', () => {
-  interface Interface {
-    str: string
-    num: number
-  }
-
-  type Result = Keys<Interface>
-
-  assertType<Equals<Result, 'str' | 'num'>>()
-})
-
 test('Keys<T, Type>', () => {
   interface Interface {
     str: string

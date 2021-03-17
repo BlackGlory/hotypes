@@ -1,34 +1,40 @@
 import { assertType, Equals } from '@test/utils'
 import { MapProps } from '@src/map-props'
 
-test('MapProps<T>', () => {
-  interface Interface {
-    str: string
-    num: number
-    strOrNum: string | number
-  }
+describe('MapProps<OldType, NewType, T>', () => {
+  test('type', () => {
+    interface Interface {
+      str: string
+      num: number
+      strOrNum: string | number
+      null: null
+    }
 
-  type Result = MapProps<string, number, Interface>
+    type Result = MapProps<string, number, Interface>
 
-  assertType<Equals<Result, {
-    str: number
-    num: number
-    strOrNum: number
-  }>>()
-})
+    assertType<Equals<Result, {
+      str: number
+      num: number
+      strOrNum: number
+      null: null
+    }>>()
+  })
 
-test('MapProps<T>', () => {
-  interface Interface {
-    str: string
-    num: number
-    strOrNum: string | number
-  }
+  test('union type', () => {
+    interface Interface {
+      str: string
+      num: number
+      strOrNum: string | number
+      null: null
+    }
 
-  type Result = MapProps<string, number, Interface>
+    type Result = MapProps<string | number, number, Interface>
 
-  assertType<Equals<Result, {
-    str: number
-    num: number
-    strOrNum: number
-  }>>()
+    assertType<Equals<Result, {
+      str: number
+      num: number
+      strOrNum: number
+      null: null
+    }>>()
+  })
 })

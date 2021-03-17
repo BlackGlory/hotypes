@@ -1,6 +1,8 @@
-export type KeysStrict<T extends object, Type = any> = {
+import { Equals } from './equals'
+
+export type KeysStrict<T extends object, Type> = {
   [P in keyof T]:
-    T[P] extends Type
+    Equals<T[P], Type> extends true
     ? P
     : never
 }[keyof T]

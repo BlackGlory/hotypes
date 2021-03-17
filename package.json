@@ -21,7 +21,7 @@
     "test": "jest --config jest.config.js",
     "test:debug": "node --inspect-brk node_modules/.bin/jest --runInBand",
     "test:coverage": "jest --coverage --config jest.config.js",
-    "prepublishOnly": "run-s clean build bundle",
+    "prepublishOnly": "run-s clean build",
     "clean": "run-p clean:*",
     "clean:build": "rimraf lib",
     "build": "run-p build:*",

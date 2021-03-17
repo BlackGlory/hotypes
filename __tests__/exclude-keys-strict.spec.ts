@@ -23,5 +23,5 @@ test('ExcludeKeysStrict<T, Type>', () => {
 
   type Result = ExcludeKeysStrict<Interface, string | number>
 
-  assertType<Equals<Result, 'null'>>()
+  assertType<Equals<Result, 'str' | 'num' | 'null'>>()
 })

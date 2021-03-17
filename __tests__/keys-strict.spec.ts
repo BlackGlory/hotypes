@@ -1,17 +1,6 @@
 import { assertType, Equals } from '@test/utils'
 import { KeysStrict } from '@src/keys-strict'
 
-test('KeysStrict<T>', () => {
-  interface Interface {
-    str: string
-    num: number
-  }
-
-  type Result = KeysStrict<Interface>
-
-  assertType<Equals<Result, 'str' | 'num'>>()
-})
-
 test('KeysStrict<T, Type>', () => {
   interface Interface {
     str: string
@@ -34,5 +23,5 @@ test('KeysStrict<T, Types>', () => {
 
   type Result = KeysStrict<Interface, string | number>
 
-  assertType<Equals<Result, 'str' | 'num' | 'strOrNumber'>>()
+  assertType<Equals<Result, 'strOrNumber'>>()
 })
