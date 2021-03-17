@@ -1,5 +1,7 @@
 # hotypes
-Higer order types for TypeScript.
+Higer order types for TypeScript in the real world.
+
+> [TypeScripts type system is Turing-complete.](https://github.com/microsoft/TypeScript/issues/14833)
 
 > Some people, when confronted with a type problem, think "I know, I'll use advanced types." Now they have two type problems.
 
