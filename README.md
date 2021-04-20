@@ -27,6 +27,7 @@ It is highly recommended to read test cases to make sure you understand what typ
 
 - ConsntructorReturnType
 - Constructor
+- Dictionary
 - Equals
 - ExcludeKeysStrict
 - ExcludeKeys

@@ -1,5 +1,6 @@
 export * from './constructor-return-type'
 export * from './constructor'
+export * from './dictionary'
 export * from './equals'
 export * from './exclude-keys-strict'
 export * from './exclude-keys'
