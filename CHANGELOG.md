@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.5](https://github.com/BlackGlory/hotypes/compare/v0.1.4...v0.1.5) (2021-04-20)
+
+
+### Features
+
+* add Dictionary ([da93343](https://github.com/BlackGlory/hotypes/commit/da9334331ad13848e18e789356838f0ff602b807))
+
 ### [0.1.4](https://github.com/BlackGlory/hotypes/compare/v0.1.3...v0.1.4) (2021-03-17)
 
 
