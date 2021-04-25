@@ -3,12 +3,11 @@ import { PartialKeys } from '@src/partial-keys'
 
 test('PartialKeys<T, Keys>', () => {
   interface Interface {
-    str: string
+    a: string
+    ab: string
   }
 
-  type Result = PartialKeys<Interface, 'str'>
+  type Result = PartialKeys<Interface, 'a'>
 
-  assertType<Equals<Result, {
-    str: string | undefined
-  }>>()
+  assertType<Equals<Result, { ab: string } & { a?: string }>>()
 })

@@ -1,6 +1,5 @@
-export type PartialKeys<T extends object, Keys> = {
-  [P in keyof T]:
-    P extends Keys
-    ? T[P] | undefined
-    : T[P]
+export type PartialKeys<T extends object, Keys extends keyof T> = {
+  [P in Exclude<keyof T, Keys>]: T[P]
+} & {
+  [P in Keys]?: T[P]
 }
