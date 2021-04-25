@@ -10,5 +10,10 @@ test('PartialKeys<T, Keys>', () => {
 
   type Result = PartialKeys<Interface, 'ab'>
 
-  assertType<Equals<Result, {a: string } & { b?: string; ab?: string }>>()
+  assertType<
+    Equals<
+      Result
+    , { a: string } & { b?: string; ab?: string }
+    >
+  >()
 })
