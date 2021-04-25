@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.7](https://github.com/BlackGlory/hotypes/compare/v0.1.6...v0.1.7) (2021-04-25)
+
+
+### Features
+
+* improve PartialKeys ([ef60fd2](https://github.com/BlackGlory/hotypes/commit/ef60fd2dbaf87a564b28dc5d101918fbb58364d9))
+
 ### [0.1.6](https://github.com/BlackGlory/hotypes/compare/v0.1.5...v0.1.6) (2021-04-25)
 
 
