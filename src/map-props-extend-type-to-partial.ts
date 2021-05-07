@@ -1,7 +1,7 @@
 import { OptionalKeys } from './optional-keys'
 
 export type MapPropsExtendTypeToPartial<T extends object, Keys extends keyof T> = {
-  [P in Exclude<keyof T, Keys | OptionalKeys<T>>]: T[P]
+  [Key in Exclude<keyof T, Keys | OptionalKeys<T>>]: T[Key]
 } & {
-  [P in Keys | OptionalKeys<T>]?: T[P]
+  [Key in Keys | OptionalKeys<T>]?: T[Key]
 }

@@ -1,9 +1,9 @@
 import { OptionalKeys } from './optional-keys'
 
 export type RequiredKeys<T extends object, Keys extends keyof T> = {
-  [P in Exclude<keyof T, OptionalKeys<T> | Keys>]: T[P]
+  [Key in Exclude<keyof T, OptionalKeys<T> | Keys>]: T[Key]
 } & {
-  [P in OptionalKeys<T>]?: T[P]
+  [Key in OptionalKeys<T>]?: T[Key]
 } & {
-  [P in Keys]-?: T[P]
+  [Key in Keys]-?: T[Key]
 }

@@ -1,8 +1,8 @@
 import { Equals } from './equals'
 
 export type MapPropsByType<T, OldType, NewType> = {
-  [P in keyof T]:
-    Equals<T[P], OldType> extends true
+  [Key in keyof T]:
+    Equals<T[Key], OldType> extends true
     ? NewType
-    : T[P]
+    : T[Key]
 }

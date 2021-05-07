@@ -1,8 +1,8 @@
 import { Equals } from './equals'
 
 export type KeysByType<T extends object, Type> = {
-  [P in keyof T]:
-    Equals<T[P], Type> extends true
-    ? P
+  [Key in keyof T]:
+    Equals<T[Key], Type> extends true
+    ? Key
     : never
 }[keyof T]
