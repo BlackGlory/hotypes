@@ -1,4 +1,4 @@
-import { ExcludeKeysExtendType } from './exclude-keys-extend-type'
+import { KeysExcludeExtendType } from './keys-exclude-extend-type'
 
 export type NonNullableKeys<T extends object> =
-  ExcludeKeysExtendType<T, null | undefined>
+  KeysExcludeExtendType<T, null | undefined>

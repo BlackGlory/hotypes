@@ -1,19 +1,19 @@
 import { assertType, Equals } from '@test/utils'
-import { ExcludeKeysExtendType } from '@src/exclude-keys-extend-type'
+import { KeysExcludeExtendType } from '@src/keys-exclude-extend-type'
 
-test('ExcludeKeysExtendType<T, Type>', () => {
+test('KeysExcludeExtendType<T, Type>', () => {
   interface Interface {
     str: string
     num: number
     strOrNumber: string | number
   }
 
-  type Result = ExcludeKeysExtendType<Interface, string>
+  type Result = KeysExcludeExtendType<Interface, string>
 
   assertType<Equals<Result, 'num'>>()
 })
 
-test('ExcludeKeysExtendType<T, Types>', () => {
+test('KeysExcludeExtendType<T, Types>', () => {
   interface Interface {
     str: string
     num: number
@@ -21,7 +21,7 @@ test('ExcludeKeysExtendType<T, Types>', () => {
     null: null
   }
 
-  type Result = ExcludeKeysExtendType<Interface, string | number>
+  type Result = KeysExcludeExtendType<Interface, string | number>
 
   assertType<Equals<Result, 'null'>>()
 })

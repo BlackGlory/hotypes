@@ -30,7 +30,7 @@ It is highly recommended to read test cases to make sure you understand what typ
 - Dictionary
 - Equals
 - KeysExcludeByType
-- ExcludeKeysExtendType
+- KeysExcludeExtendType
 - NonNullable
 - FunctionKeys
 - Getter
