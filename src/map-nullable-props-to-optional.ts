@@ -4,4 +4,10 @@ import { NullableKeys } from './nullable-keys'
 
 export type MapNullablePropsToOptional<T> =
   Pick<T, NonNullableKeys<T>>
-& Partial<MapPropsExtendType<Pick<T, NullableKeys<T>>, null, undefined>>
+& Partial<
+    MapPropsExtendType<
+      Pick<T, NullableKeys<T>>
+    , null
+    , undefined
+    >
+  >

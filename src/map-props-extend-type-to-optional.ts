@@ -1,7 +1,5 @@
 import { OptionalKeys } from './optional-keys'
 
-export type MapPropsExtendTypeToOptional<T, Keys extends keyof T> = {
-  [Key in Exclude<keyof T, Keys | OptionalKeys<T>>]: T[Key]
-} & {
-  [Key in Keys | OptionalKeys<T>]?: T[Key]
-}
+export type MapPropsExtendTypeToOptional<T, Keys extends keyof T> =
+  Pick<T, Exclude<keyof T, Keys | OptionalKeys<T>>>
+& Partial<Pick<T, Keys | OptionalKeys<T>>>
