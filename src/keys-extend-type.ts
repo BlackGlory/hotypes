@@ -1,6 +1,6 @@
 export type KeysExtendType<T extends object, Type> = {
-  [P in keyof T]:
-    Type extends T[P]
-    ? P
+  [Key in keyof T]:
+    Type extends T[Key]
+    ? Key
     : never
 }[keyof T]
