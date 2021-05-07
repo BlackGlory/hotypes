@@ -2,6 +2,58 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.2.0](https://github.com/BlackGlory/hotypes/compare/v0.1.9...v0.2.0) (2021-05-07)
+
+
+### ⚠ BREAKING CHANGES
+
+* rename RequiredKeys => MapPropsByKeyToNonOptional
+* rename MapNullablePropsToOptionalProps => MapNullablePropsToOptional
+* rename MapPropsExtendTypeToPartial => MapPropsExtendTypeToOptional
+* rename PartialKeys => MapPropsExtendTypeToPartial
+* rename ConstructorReturnType => ReturnTypeOfConstructor
+* rename ExcludeKeysExtendType => KeysExcludeExtendType
+* rename ExcludeKeysByType => KeysExcludeByType
+* rename GetKeysExtendType => KeysExtendType
+* rename GetKeysByType => KeysByType
+* rename GetFunctionKeys => FunctionKeys
+* rename MapProps => MapPropsExtendType
+* rename MapPropsStrict => MapPropsByType
+* rename MapNullablePropsToNonNullableProps =>  MapPropsToNonNullable
+* rename Keys => GetKeysExtendType
+* rename FunctionKeys => GetFunctionKeys
+* rename ExcludeNullable => NonNullable
+* rename ExcludeKeys => ExcludeKeysExtendType
+* rename ExcludeKeysStrict => ExcludeKeysByType
+* rename KeysStrict => GetKeysByType
+
+### Bug Fixes
+
+* filenames ([b594e15](https://github.com/BlackGlory/hotypes/commit/b594e159094a0558749b41dc5737a2bd6652a9c6))
+* type MapNullablePropsToOptional ([fffdbd8](https://github.com/BlackGlory/hotypes/commit/fffdbd8e52191a5bc9943a09c74fa18f6cca67ce))
+* type OptinalKeys ([9c36904](https://github.com/BlackGlory/hotypes/commit/9c36904fe1226386f5a5e7b9a5bed7c75eecb685))
+
+
+* rename ConstructorReturnType => ReturnTypeOfConstructor ([00336b1](https://github.com/BlackGlory/hotypes/commit/00336b1dcd433a7933940060ae01f2428f47ea53))
+* rename ExcludeKeys => ExcludeKeysExtendType ([2e1bb5f](https://github.com/BlackGlory/hotypes/commit/2e1bb5f5464dd113161d191e5372ade393e337b3))
+* rename ExcludeKeysByType => KeysExcludeByType ([94fb347](https://github.com/BlackGlory/hotypes/commit/94fb347617ebd5aead336df3682399447ab68ca1))
+* rename ExcludeKeysExtendType => KeysExcludeExtendType ([3ece321](https://github.com/BlackGlory/hotypes/commit/3ece32156a506ee4fe35d5c862d7021f89627339))
+* rename ExcludeKeysStrict => ExcludeKeysByType ([4a34407](https://github.com/BlackGlory/hotypes/commit/4a3440759c7ffff9939d207fe30a54f5cf19c2ac))
+* rename ExcludeNullable => NonNullable ([cfb3b7c](https://github.com/BlackGlory/hotypes/commit/cfb3b7cd7817539dc9280c98b4db04c5dacf86f9))
+* rename FunctionKeys => GetFunctionKeys ([4798f98](https://github.com/BlackGlory/hotypes/commit/4798f9849a87f06e0002fe2b74ca128f3d7d6504))
+* rename GetFunctionKeys => FunctionKeys ([eedca79](https://github.com/BlackGlory/hotypes/commit/eedca798fff2997d83a4cfd0610c5707f883ea87))
+* rename GetKeysByType => KeysByType ([a4d37eb](https://github.com/BlackGlory/hotypes/commit/a4d37eb6f45447954dbe217db9ef487051cf1c57))
+* rename GetKeysExtendType => KeysExtendType ([41e277e](https://github.com/BlackGlory/hotypes/commit/41e277eb0b2d740dff0cc84195f1be93c0ff9631))
+* rename Keys => GetKeysExtendType ([f7c93ee](https://github.com/BlackGlory/hotypes/commit/f7c93eeafec7efa60f8922692b75934e69662c95))
+* rename KeysStrict => GetKeysByType ([6101a08](https://github.com/BlackGlory/hotypes/commit/6101a08a17abb253f2ebaae4cf54712fdf04a627))
+* rename MapNullablePropsToNonNullableProps =>  MapPropsToNonNullable ([e371106](https://github.com/BlackGlory/hotypes/commit/e371106ef2f9927516950a3d07d8fabcb2252da1))
+* rename MapNullablePropsToOptionalProps => MapNullablePropsToOptional ([5658780](https://github.com/BlackGlory/hotypes/commit/5658780084d08c16ff466095f65500efc13f0150))
+* rename MapProps => MapPropsExtendType ([b55a062](https://github.com/BlackGlory/hotypes/commit/b55a062682df5fd555af1fb636a4e86717206105))
+* rename MapPropsExtendTypeToPartial => MapPropsExtendTypeToOptional ([c1aa1c1](https://github.com/BlackGlory/hotypes/commit/c1aa1c1223a3ddef924b57c165b977d7bf3a85e1))
+* rename MapPropsStrict => MapPropsByType ([c38c31b](https://github.com/BlackGlory/hotypes/commit/c38c31ba7230c67fa57c36be0d89accdf4e7555d))
+* rename PartialKeys => MapPropsExtendTypeToPartial ([7b66e82](https://github.com/BlackGlory/hotypes/commit/7b66e8252bd98b01b28ac04f849112c01f13796f))
+* rename RequiredKeys => MapPropsByKeyToNonOptional ([9098cf8](https://github.com/BlackGlory/hotypes/commit/9098cf89fb0687d90c4aae59ca86f33b02f6c86d))
+
 ### [0.1.9](https://github.com/BlackGlory/hotypes/compare/v0.1.8...v0.1.9) (2021-04-25)
 
 
