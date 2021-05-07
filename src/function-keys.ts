@@ -1,4 +1,4 @@
 import { GetKeysExtendType } from './get-keys-extend-type'
 
-export type GetFunctionKeys<T extends object> =
+export type FunctionKeys<T extends object> =
   GetKeysExtendType<T, (...args: any) => any>
