@@ -1,4 +1,4 @@
-export type KeysExtendType<T extends object, Type> = {
+export type KeysExtendType<T, Type> = {
   [Key in keyof T]:
     Type extends T[Key]
     ? Key
