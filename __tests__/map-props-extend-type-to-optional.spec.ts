@@ -1,14 +1,14 @@
 import { assertType, Equals } from '@test/utils'
-import { MapPropsExtendTypeToPartial } from '@src/map-props-extend-type-to-partial'
+import { MapPropsExtendTypeToOptional } from '@src/map-props-extend-type-to-optional'
 
-test('MapPropsExtendTypeToPartial<T, Keys>', () => {
+test('MapPropsExtendTypeToOptional<T, Keys>', () => {
   interface Interface {
     a: string
     b?: string
     ab: string
   }
 
-  type Result = MapPropsExtendTypeToPartial<Interface, 'ab'>
+  type Result = MapPropsExtendTypeToOptional<Interface, 'ab'>
 
   assertType<
     Equals<
