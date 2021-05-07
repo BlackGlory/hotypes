@@ -35,8 +35,8 @@ It is highly recommended to read test cases to make sure you understand what typ
 - FunctionKeys
 - Getter
 - Head
-- GetKeysByType
-- GetKeysExtendType
+- KeysByType
+- KeysExtendType
 - Last
 - MapPropsToNonNullable
 - MapNullablePropsToOptionalProps
