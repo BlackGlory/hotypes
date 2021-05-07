@@ -40,7 +40,7 @@ It is highly recommended to read test cases to make sure you understand what typ
 - Last
 - MapPropsToNonNullable
 - MapNullablePropsToOptionalProps
-- MapPropsStrict
+- MapPropsByType
 - MapProps
 - NonEmptyArray
 - NonNullableKeys

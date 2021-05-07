@@ -1,6 +1,6 @@
 import { Equals } from './equals'
 
-export type MapPropsStrict<OldType, NewType, T> = {
+export type MapPropsByType<T, OldType, NewType> = {
   [P in keyof T]:
     Equals<T[P], OldType> extends true
     ? NewType
