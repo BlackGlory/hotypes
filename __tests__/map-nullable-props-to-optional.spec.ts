@@ -1,7 +1,7 @@
 import { assertType, Equals } from '@test/utils'
-import { MapNullablePropsToOptionalProps } from '@src/map-nullable-props-to-optional-props'
+import { MapNullablePropsToOptional } from '@src/map-nullable-props-to-optional'
 
-test('MapNullablePropsToOptionalProps', () => {
+test('MapNullablePropsToOptional', () => {
   interface Interface {
     str: string
     nullableStr: string | null
@@ -10,7 +10,7 @@ test('MapNullablePropsToOptionalProps', () => {
     nullOrUndefined: null | undefined
   }
 
-  type Result = MapNullablePropsToOptionalProps<Interface>
+  type Result = MapNullablePropsToOptional<Interface>
 
   // @ts-ignore
   assertType<Equals<Result, {
