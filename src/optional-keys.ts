@@ -1,3 +1,3 @@
-import { Keys } from './keys'
+import { GetKeysExtendType } from './get-keys-extend-type'
 
-export type OptionalKeys<T extends object> = Keys<T, undefined>
+export type OptionalKeys<T extends object> = GetKeysExtendType<T, undefined>

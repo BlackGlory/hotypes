@@ -1,19 +1,19 @@
 import { assertType, Equals } from '@test/utils'
-import { Keys } from '@src/keys'
+import { GetKeysExtendType } from '@src/get-keys-extend-type'
 
-test('Keys<T, Type>', () => {
+test('GetKeysExtendType<T, Type>', () => {
   interface Interface {
     str: string
     num: number
     strOrNumber: string | number
   }
 
-  type Result = Keys<Interface, string>
+  type Result = GetKeysExtendType<Interface, string>
 
   assertType<Equals<Result, 'str' | 'strOrNumber'>>()
 })
 
-test('Keys<T, Types>', () => {
+test('GetKeysExtendType<T, Types>', () => {
   interface Interface {
     str: string
     num: number
@@ -21,7 +21,7 @@ test('Keys<T, Types>', () => {
     null: null
   }
 
-  type Result = Keys<Interface, string | number>
+  type Result = GetKeysExtendType<Interface, string | number>
 
   assertType<Equals<Result, 'str' | 'num' | 'strOrNumber'>>()
 })
