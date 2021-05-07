@@ -1,4 +1,4 @@
-import { KeysStrict } from './keys-strict'
+import { GetKeysByType } from './get-keys-by-type'
 
 export type ExcludeKeysStrict<T extends object, Type> =
-  Exclude<keyof T, KeysStrict<T, Type>>
+  Exclude<keyof T, GetKeysByType<T, Type>>
