@@ -1,8 +1,8 @@
 import { assertType, Equals } from '@test/utils'
-import { FunctionKeys } from '@src/function-keys'
+import { GetFunctionKeys } from '@src/get-function-keys'
 
-test('FunctionKeys<T>', () => {
-  type Result = FunctionKeys<{
+test('GetFunctionKeys<T>', () => {
+  type Result = GetFunctionKeys<{
     str: string
     fn1: () => void
     fn2(val: string): string
