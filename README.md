@@ -45,7 +45,7 @@ It is highly recommended to read test cases to make sure you understand what typ
 - NonEmptyArray
 - NonNullableKeys
 - Nullable
-- PartialKeys
+- MapPropsExtendTypeToPartial
 - PickNonNever
 - RequiredKeys
 - Tail
