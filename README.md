@@ -29,7 +29,7 @@ It is highly recommended to read test cases to make sure you understand what typ
 - Constructor
 - Dictionary
 - Equals
-- ExcludeKeysByType
+- KeysExcludeByType
 - ExcludeKeysExtendType
 - NonNullable
 - FunctionKeys

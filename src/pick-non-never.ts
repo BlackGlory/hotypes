@@ -1,3 +1,3 @@
-import { ExcludeKeysByType } from './exclude-keys-by-type'
+import { KeysExcludeByType } from './keys-exclude-by-type'
 
-export type PickNonNever<T extends object> = Pick<T, ExcludeKeysByType<T, never>>
+export type PickNonNever<T extends object> = Pick<T, KeysExcludeByType<T, never>>
