@@ -1,4 +1,4 @@
-export * from './constructor-return-type'
+export * from './return-type-of-constructor'
 export * from './constructor'
 export * from './dictionary'
 export * from './equals'
