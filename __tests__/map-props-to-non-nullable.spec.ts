@@ -1,7 +1,7 @@
 import { assertType, Equals } from '@test/utils'
-import { MapNullablePropsToNonNullableProps } from '@src/map-nullable-props-to-non-nullable-props'
+import { MapPropsToNonNullable } from '@src/map-props-to-non-nullable'
 
-test('MapNullablePropsToNonNullableProps', () => {
+test('MapPropsToNonNullable', () => {
   interface Interface {
     str: string
     nullableStr: string | null
@@ -10,7 +10,7 @@ test('MapNullablePropsToNonNullableProps', () => {
     nullOrUndefined: null | undefined
   }
 
-  type Result = MapNullablePropsToNonNullableProps<Interface>
+  type Result = MapPropsToNonNullable<Interface>
 
   assertType<Equals<Result, {
     str: string
