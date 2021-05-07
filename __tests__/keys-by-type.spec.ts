@@ -1,19 +1,19 @@
 import { assertType, Equals } from '@test/utils'
-import { GetKeysByType } from '@src/get-keys-by-type'
+import { KeysByType } from '@src/keys-by-type'
 
-test('GetKeysByType<T, Type>', () => {
+test('KeysByType<T, Type>', () => {
   interface Interface {
     str: string
     num: number
     strOrNumber: string | number
   }
 
-  type Result = GetKeysByType<Interface, string>
+  type Result = KeysByType<Interface, string>
 
   assertType<Equals<Result, 'str'>>()
 })
 
-test('GetKeysByType<T, Types>', () => {
+test('KeysByType<T, Types>', () => {
   interface Interface {
     str: string
     num: number
@@ -21,7 +21,7 @@ test('GetKeysByType<T, Types>', () => {
     null: null
   }
 
-  type Result = GetKeysByType<Interface, string | number>
+  type Result = KeysByType<Interface, string | number>
 
   assertType<Equals<Result, 'strOrNumber'>>()
 })
