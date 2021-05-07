@@ -1,4 +1,4 @@
-export type MapProps<OldType, NewType, T> = {
+export type MapPropsExtendType<T, OldType, NewType> = {
   [P in keyof T]:
     T[P] extends OldType
     ? Exclude<T[P], OldType> | NewType
