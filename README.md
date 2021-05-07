@@ -31,7 +31,7 @@ It is highly recommended to read test cases to make sure you understand what typ
 - Equals
 - ExcludeKeysByType
 - ExcludeKeysExtendType
-- ExcludeNullable
+- NonNullable
 - FunctionKeys
 - Getter
 - Head
