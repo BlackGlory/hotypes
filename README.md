@@ -51,6 +51,8 @@ It is highly recommended to read test cases to make sure you understand what typ
 - Tail
 - UnpackedArrayLike
 - UnpackedArray
+- UnpackedAsyncIterable
+- UnpackedIterable
 - UnpackedPromiseLike
 - UnpackedPromise
 - WithDefault
