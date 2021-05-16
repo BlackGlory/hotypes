@@ -36,12 +36,12 @@
     }
   },
   "devDependencies": {
-    "@commitlint/cli": "^12.1.1",
-    "@commitlint/config-conventional": "^12.1.1",
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
     "@types/jest": "^26.0.23",
-    "@typescript-eslint/eslint-plugin": "^4.22.1",
-    "@typescript-eslint/parser": "^4.22.1",
-    "eslint": "^7.25.0",
+    "@typescript-eslint/eslint-plugin": "^4.23.0",
+    "@typescript-eslint/parser": "^4.23.0",
+    "eslint": "^7.26.0",
     "husky": "^4.3.8",
     "jest": "^26.6.3",
     "jest-extended": "^0.11.5",
@@ -50,7 +50,7 @@
     "standard-version": "^9.3.0",
     "ts-jest": "^26.5.6",
     "tscpaths": "^0.0.9",
-    "tsd": "^0.14.0",
+    "tsd": "^0.15.1",
     "tslib": "^2.2.0",
     "typescript": "^4.2.4"
   }
