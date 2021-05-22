@@ -24,7 +24,7 @@
     "prepublishOnly": "run-s clean build",
     "clean": "run-p clean:*",
     "clean:build": "rimraf lib",
-    "build": "run-p build:*",
+    "build": "run-s build:*",
     "build:compile": "tsc --project tsconfig.build.json --module commonjs --outDir lib",
     "build:patch": "tscpaths -p tsconfig.build.json -s ./src -o ./lib",
     "release": "standard-version"
