@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.3](https://github.com/BlackGlory/hotypes/compare/v0.2.2...v0.2.3) (2021-06-20)
+
+
+### Features
+
+* add ReplacePropsByType ([adaa1ad](https://github.com/BlackGlory/hotypes/commit/adaa1addee71bf2c22103b2eb7733d3b55b9fbb3))
+* add ReplaceType ([34ce004](https://github.com/BlackGlory/hotypes/commit/34ce004da7c91572bdea4457abad7b6a590879c0))
+
 ### [0.2.2](https://github.com/BlackGlory/hotypes/compare/v0.2.1...v0.2.2) (2021-05-22)
 
 
