@@ -25,29 +25,32 @@ yarn add hotypes
 
 It is highly recommended to read test cases to make sure you understand what types exactly do.
 
-- ReturnTypeOfConstructor
 - Constructor
 - Dictionary
 - Equals
-- KeysExcludeByType
-- KeysExcludeExtendType
-- NonNullable
 - FunctionKeys
 - Getter
 - Head
 - KeysByType
+- KeysExcludeByType
+- KeysExcludeExtendType
 - KeysExtendType
 - Last
-- MapPropsToNonNullable
 - MapNullablePropsToOptional
+- MapPropsByKeyToNonOptional
 - MapPropsByType
+- MapPropsExtendTypeToOptional
 - MapPropsExtendType
+- MapPropsToNonNullable
 - NonEmptyArray
 - NonNullableKeys
+- NonNullable
+- NullableKeys
 - Nullable
-- MapPropsExtendTypeToOptional
+- OptionalKeys
 - PickNonNever
-- MapPropsByKeyToNonOptional
+- ReplaceType
+- ReturnTypeOfConstructor
 - Tail
 - UnpackedArrayLike
 - UnpackedArray
