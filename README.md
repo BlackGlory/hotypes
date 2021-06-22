@@ -38,8 +38,8 @@ It is highly recommended to read test cases to make sure you understand what typ
 - Last
 - MapNullablePropsToOptional
 - MapPropsByKeyToNonOptional
+- MapPropsByKeyToOptional
 - MapPropsByType
-- MapPropsExtendTypeToOptional
 - MapPropsExtendType
 - MapPropsToNonNullable
 - NonEmptyArray
