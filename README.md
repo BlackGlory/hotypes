@@ -36,6 +36,7 @@ It is highly recommended to read test cases to make sure you understand what typ
 - KeysExcludeExtendType
 - KeysExtendType
 - Last
+- MapNullablePropsToOptionalNullable
 - MapNullablePropsToOptional
 - MapPropsByKeyToNonOptional
 - MapPropsByKeyToOptional
