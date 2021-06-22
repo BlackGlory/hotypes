@@ -1,11 +1,11 @@
 # hotypes
-Higer order types for TypeScript in the real world.
+Higher-order types for TypeScript in the real world.
 
 ## Motivation
 
 > [TypeScripts type system is Turing-complete.](https://github.com/microsoft/TypeScript/issues/14833)
 
-This means that if you don't follow the real-world use cases to create high-order types,
+This means that if you don't follow the real-world use cases to create higher-order types,
 you will create a lot of useless new macros.
 
 > Some people, when confronted with a type problem, think "I know, I'll use advanced types." Now they have two type problems.

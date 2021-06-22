@@ -1,7 +1,7 @@
 {
   "name": "hotypes",
   "version": "0.3.0",
-  "description": "Higer order types for TypeScript",
+  "description": "Higher order types for TypeScript",
   "keywords": [
     "higher-order",
     "types",
