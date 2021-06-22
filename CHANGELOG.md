@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.3.0](https://github.com/BlackGlory/hotypes/compare/v0.2.3...v0.3.0) (2021-06-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* rename MapPropsExtendTypeToOptional to MapPropsByKeyToOptional
+
+* rename MapPropsExtendTypeToOptional to MapPropsByKeyToOptional ([f08998c](https://github.com/BlackGlory/hotypes/commit/f08998ccaf3300b5f5b30999b8a48ad0ffeef75f))
+
 ### [0.2.3](https://github.com/BlackGlory/hotypes/compare/v0.2.2...v0.2.3) (2021-06-20)
 
 
