@@ -48,6 +48,8 @@ It is highly recommended to read test cases to make sure you understand what typ
 - NonNullable
 - NullableKeys
 - Nullable
+- OmitPropsByType
+- OmitPropsExtendType
 - OptionalKeys
 - PickNonNever
 - ReplacePropsByType
