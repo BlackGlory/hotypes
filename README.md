@@ -13,6 +13,12 @@ you will create a lot of useless new macros.
 This means that higher-order types are difficult,
 so we should not further complicate or mystify them.
 
+## The difference with [justypes]
+
+hotypes are more like verbs or operators.
+
+[justypes]: https://www.npmjs.com/package/justypes
+
 ## Install
 
 ```sh
@@ -25,11 +31,8 @@ yarn add hotypes
 
 It is highly recommended to read test cases to make sure you understand what types exactly do.
 
-- Constructor
-- Dictionary
 - Equals
 - FunctionKeys
-- Getter
 - Head
 - KeysByType
 - KeysExcludeByType
@@ -43,11 +46,8 @@ It is highly recommended to read test cases to make sure you understand what typ
 - MapPropsByType
 - MapPropsExtendType
 - MapPropsToNonNullable
-- NonEmptyArray
 - NonNullableKeys
-- NonNullable
 - NullableKeys
-- Nullable
 - OmitPropsByType
 - OmitPropsExtendType
 - OptionalKeys
@@ -56,10 +56,4 @@ It is highly recommended to read test cases to make sure you understand what typ
 - ReplaceType
 - ReturnTypeOfConstructor
 - Tail
-- UnpackedArrayLike
-- UnpackedArray
-- UnpackedAsyncIterable
-- UnpackedIterable
-- UnpackedPromiseLike
-- UnpackedPromise
 - WithDefault
