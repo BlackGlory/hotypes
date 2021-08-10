@@ -47,6 +47,7 @@ It is highly recommended to read test cases to make sure you understand what typ
 - MapPropsByType
 - MapPropsExtendType
 - MapPropsToNonNullable
+- Mixin
 - NonNullableKeys
 - NullableKeys
 - OmitPropsByType
