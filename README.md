@@ -5,12 +5,12 @@ Higher-order types for TypeScript in the real world.
 
 > [TypeScripts type system is Turing-complete.](https://github.com/microsoft/TypeScript/issues/14833)
 
-This means that if you don't follow the real-world use cases to create higher-order types,
+If you don't follow the real-world use cases to create higher-order types,
 you will create a lot of useless new macros.
 
 > Some people, when confronted with a type problem, think "I know, I'll use advanced types." Now they have two type problems.
 
-This means that higher-order types are difficult,
+Higher-order types are difficult,
 so we should not further complicate or mystify them.
 
 ## The difference with [justypes]
@@ -43,6 +43,7 @@ It is highly recommended to read test cases to make sure you understand what typ
 - MapNullablePropsToOptional
 - MapPropsByKeyToNonOptional
 - MapPropsByKeyToOptional
+- MapPropsByKey
 - MapPropsByType
 - MapPropsExtendType
 - MapPropsToNonNullable
@@ -52,6 +53,7 @@ It is highly recommended to read test cases to make sure you understand what typ
 - OmitPropsExtendType
 - OptionalKeys
 - PickNonNever
+- ReplacePropsByKey
 - ReplacePropsByType
 - ReplaceType
 - ReturnTypeOfConstructor
