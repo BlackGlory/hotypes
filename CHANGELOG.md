@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.3](https://github.com/BlackGlory/hotypes/compare/v0.4.2...v0.4.3) (2021-11-18)
+
+
+### Features
+
+* improve KeysExtendType ([89bfbcd](https://github.com/BlackGlory/hotypes/commit/89bfbcdaec3208271e7d7114d1f954fdf49ef3f1))
+
 ### [0.4.2](https://github.com/BlackGlory/hotypes/compare/v0.4.1...v0.4.2) (2021-08-10)
 
 
