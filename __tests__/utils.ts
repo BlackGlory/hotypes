@@ -1,5 +1,12 @@
-export function assertType<T extends true>() {}
-export function assertNotType<T extends false>() {}
+import { pass } from '@blackglory/pass'
+
+export function assertType<T extends true>() {
+  pass()
+}
+
+export function assertNotType<T extends false>() {
+  pass()
+}
 
 // very magic, read https://github.com/microsoft/TypeScript/issues/27024
 export type Equals<X, Y> =
