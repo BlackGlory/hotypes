@@ -41,6 +41,7 @@ It is highly recommended to read test cases to make sure you understand what typ
 - Last
 - MapNullablePropsToOptionalNullable
 - MapNullablePropsToOptional
+- MapProps
 - MapPropsByKeyToNonOptional
 - MapPropsByKeyToOptional
 - MapPropsByKey
