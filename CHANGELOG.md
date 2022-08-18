@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.6](https://github.com/BlackGlory/hotypes/compare/v0.4.5...v0.4.6) (2022-08-18)
+
+
+### Features
+
+* add `MapProps` ([a47ddbf](https://github.com/BlackGlory/hotypes/commit/a47ddbf8c6551622df2199cec297fae2b22c4258))
+
 ### [0.4.5](https://github.com/BlackGlory/hotypes/compare/v0.4.4...v0.4.5) (2022-08-01)
 
 ### [0.4.4](https://github.com/BlackGlory/hotypes/compare/v0.4.3...v0.4.4) (2022-03-20)
