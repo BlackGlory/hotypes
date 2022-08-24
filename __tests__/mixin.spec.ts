@@ -14,7 +14,6 @@ test('Mixin<Base, Other>', () => {
 
   type Result = Mixin<Base, Other>
 
-  // @ts-ignore
   assertType<Equals<Result, {
     a: number
     b: number
