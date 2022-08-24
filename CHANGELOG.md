@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.7](https://github.com/BlackGlory/hotypes/compare/v0.4.6...v0.4.7) (2022-08-24)
+
+
+### Features
+
+* add `MixinAll` ([4ad9342](https://github.com/BlackGlory/hotypes/commit/4ad934220f5c5270f3af1cc8f04418c983ed3177))
+
 ### [0.4.6](https://github.com/BlackGlory/hotypes/compare/v0.4.5...v0.4.6) (2022-08-18)
 
 
