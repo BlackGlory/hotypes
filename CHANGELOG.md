@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.8](https://github.com/BlackGlory/hotypes/compare/v0.4.7...v0.4.8) (2022-08-31)
+
+
+### Features
+
+* add `NonCallable` ([1e6ffe1](https://github.com/BlackGlory/hotypes/commit/1e6ffe195cd246f2a8e69ba0fa173e001b7bbb73))
+
 ### [0.4.7](https://github.com/BlackGlory/hotypes/compare/v0.4.6...v0.4.7) (2022-08-24)
 
 
