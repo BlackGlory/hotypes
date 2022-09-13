@@ -1,3 +1,3 @@
-import { KeysExcludeByType } from './keys-exclude-by-type'
+import { KeysExcludeByExactType } from './keys-exclude-by-exact-type'
 
-export type PickNonNever<T> = Pick<T, KeysExcludeByType<T, never>>
+export type PickNonNever<T> = Pick<T, KeysExcludeByExactType<T, never>>
