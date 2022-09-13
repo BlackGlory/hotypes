@@ -30,7 +30,7 @@ It is highly recommended to read test cases to make sure you understand what typ
 - Equals
 - FunctionKeys
 - Head
-- KeysByType
+- KeysByExactType
 - KeysExcludeByType
 - KeysExcludeExtendType
 - KeysExtendType
