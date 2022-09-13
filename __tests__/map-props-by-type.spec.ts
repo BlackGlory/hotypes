@@ -1,7 +1,7 @@
 import { assertType, Equals } from '@test/utils'
-import { MapPropsExtendType } from '@src/map-props-extend-type'
+import { MapPropsByType } from '@src/map-props-by-type'
 
-describe('MapPropsExtendType<T, OldType, NewType>', () => {
+describe('MapPropsByType<T, OldType, NewType>', () => {
   test('type', () => {
     interface Interface {
       str: string
@@ -10,7 +10,7 @@ describe('MapPropsExtendType<T, OldType, NewType>', () => {
       null: null
     }
 
-    type Result = MapPropsExtendType<Interface, string, number>
+    type Result = MapPropsByType<Interface, string, number>
 
     assertType<Equals<Result, {
       str: number
@@ -28,7 +28,7 @@ describe('MapPropsExtendType<T, OldType, NewType>', () => {
       null: null
     }
 
-    type Result = MapPropsExtendType<Interface, string | number, number>
+    type Result = MapPropsByType<Interface, string | number, number>
 
     assertType<Equals<Result, {
       str: number

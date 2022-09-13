@@ -36,13 +36,13 @@ It is highly recommended to read test cases to make sure you understand what typ
 - KeysExcludeByExactType
 - Last
 - MapAllProps
+- MapPropsByKey
+- MapPropsByType
+- MapPropsByExactType
 - MapNullablePropsToOptionalNullable
 - MapNullablePropsToOptional
 - MapPropsToNonOptionalByKey
 - MapPropsToOptionalByKey
-- MapPropsByExactKey
-- MapPropsByType
-- MapPropsExtendType
 - MapPropsToNonNullable
 - Mixin
 - MixinAll
