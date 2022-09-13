@@ -1,13 +1,13 @@
 import { assertType, Equals } from '@test/utils'
-import { ReplaceAllProps } from '@src/replace-all-props'
+import { MapAllProps } from '@src/map-all-props'
 
-test('ReplaceAllProps', () => {
+test('MapAllProps', () => {
   interface Interface {
     a: string
     b: number
   }
 
-  type Result = ReplaceAllProps<Interface, boolean>
+  type Result = MapAllProps<Interface, boolean>
 
   assertType<Equals<Result, {
     a: boolean

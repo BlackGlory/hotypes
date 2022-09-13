@@ -35,6 +35,7 @@ It is highly recommended to read test cases to make sure you understand what typ
 - KeysExcludeByType
 - KeysExcludeByExactType
 - Last
+- MapAllProps
 - MapNullablePropsToOptionalNullable
 - MapNullablePropsToOptional
 - MapPropsToNonOptionalByKey
@@ -54,7 +55,6 @@ It is highly recommended to read test cases to make sure you understand what typ
 - Replace
 - ReplacePropsByKey
 - ReplacePropsByType
-- ReplaceAllProps
 - ReturnTypeOfConstructor
 - Tail
 - WithDefault
