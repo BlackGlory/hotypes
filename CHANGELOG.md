@@ -2,6 +2,44 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.5.0](https://github.com/BlackGlory/hotypes/compare/v0.4.8...v0.5.0) (2022-09-13)
+
+
+### ⚠ BREAKING CHANGES
+
+* Removed `ReturnTypeOfConstructor`
+* Renamed `MapPropsExtendType` to `MapPropsByType`
+* Renamed `MapPropsByType` to `MapPropsByExactType`
+* Renamed `ReplaceAllProps` to `MapAllProps`
+* Renamed `ReplaceType` to `Replace`
+* Renamed `OmitPropsExtendType` to `OmitPropsByType`
+* Renamed `OmitPropsByType` to `OmitPropsByExactType`
+* Renamed `KeysExcludeExtendType` to `KeysExcludeByType`
+* Renamed `KeysExcludeByType` to `KeysExcludeByExactType`
+* Renamed `KeysExtendType` to `KeysByType`
+* Renamed `KeysByType` to `KeysByExactType`
+* Renamed `MapPropsByKeyToOptional` to `MapPropsToOptionalByKey`
+* Renamed `MapPropsByKeyToNonOptional` to `MapPropsToNonOptionalByKey`
+
+### Features
+
+* add types from justypes@2 ([d860c31](https://github.com/BlackGlory/hotypes/commit/d860c3100d590fbac31da67d1ead8892e4539db7))
+
+
+* remove `ReturnTypeOfConstructor` ([97c2619](https://github.com/BlackGlory/hotypes/commit/97c2619cd6297e92e4c35b13d64ce8d1364f46fb))
+* rename `KeysByType` to `KeysByExactType` ([a70cfd7](https://github.com/BlackGlory/hotypes/commit/a70cfd7b252ddfebc1224d0cdc9436c4abbcf84d))
+* rename `KeysExcludeByType` to `KeysExcludeByExactType` ([a651549](https://github.com/BlackGlory/hotypes/commit/a651549d429de3df5873bb285b42cfd4ec2cfb50))
+* rename `KeysExcludeExtendType` to `KeysExcludeByType` ([f7911b0](https://github.com/BlackGlory/hotypes/commit/f7911b014324c0b1e592bfdf3f9da10456989941))
+* rename `KeysExtendType` to `KeysByType` ([e6dbeaa](https://github.com/BlackGlory/hotypes/commit/e6dbeaaeab5a367c2788b419a991e6e293dcfa54))
+* rename `MapPropsByKeyToNonOptional` to `MapPropsToNonOptionalByKey` ([46ee6bb](https://github.com/BlackGlory/hotypes/commit/46ee6bb9ec5e801fb1e1793d87a78c90cb8b46b8))
+* rename `MapPropsByKeyToOptional` to `MapPropsToOptionalByKey` ([b20333e](https://github.com/BlackGlory/hotypes/commit/b20333ea00ee1fa3828a13f16fbaca9ffbee1e8a))
+* rename `MapPropsByType` to `MapPropsByExactType` ([4033860](https://github.com/BlackGlory/hotypes/commit/40338602ffc28205aaeeb069faf5609b58ff817e))
+* rename `MapPropsExtendType` to `MapPropsByType` ([acdfafd](https://github.com/BlackGlory/hotypes/commit/acdfafd9667cc190e2d3221a46b6c5ae298c201a))
+* rename `OmitPropsByType` to `OmitPropsByExactType` ([11298ae](https://github.com/BlackGlory/hotypes/commit/11298ae024f08bc965c0463ca7f1335fe77c0a48))
+* rename `OmitPropsExtendType` to `OmitPropsByType` ([4fc6c18](https://github.com/BlackGlory/hotypes/commit/4fc6c181a47441a24152078052a9d1a1d8d9aea2))
+* rename `ReplaceAllProps` to `MapAllProps` ([3f542c3](https://github.com/BlackGlory/hotypes/commit/3f542c3f1e4a253bba2beb79a792956d30c1b21d))
+* rename `ReplaceType` to `Replace` ([3e0f507](https://github.com/BlackGlory/hotypes/commit/3e0f507508a5a675b9e13926b7d94029456bc748))
+
 ### [0.4.8](https://github.com/BlackGlory/hotypes/compare/v0.4.7...v0.4.8) (2022-08-31)
 
 
