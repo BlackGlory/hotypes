@@ -1,4 +1,4 @@
-import { KeysExtendType } from './keys-extend-type'
+import { KeysByType } from './keys-by-type'
 
 export type KeysExcludeExtendType<T, Type> =
-  Exclude<keyof T, KeysExtendType<T, Type>>
+  Exclude<keyof T, KeysByType<T, Type>>

@@ -1,7 +1,7 @@
-import { KeysExtendType } from './keys-extend-type'
+import { KeysByType } from './keys-by-type'
 
 export type OptionalKeys<T> =
   Exclude<
-    KeysExtendType<T, undefined>
+    KeysByType<T, undefined>
   , undefined
   >

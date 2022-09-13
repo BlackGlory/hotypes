@@ -1,3 +1,3 @@
-import { KeysExtendType } from './keys-extend-type'
+import { KeysByType } from './keys-by-type'
 
-export type NullableKeys<T> = KeysExtendType<T, undefined | null>
+export type NullableKeys<T> = KeysByType<T, undefined | null>

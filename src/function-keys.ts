@@ -1,4 +1,4 @@
-import { KeysExtendType } from './keys-extend-type'
+import { KeysByType } from './keys-by-type'
 
 export type FunctionKeys<T> =
-  KeysExtendType<T, (...args: any) => any>
+  KeysByType<T, (...args: any) => any>
