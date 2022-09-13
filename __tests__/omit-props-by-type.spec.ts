@@ -1,14 +1,14 @@
 import { assertType, Equals } from '@test/utils'
-import { OmitPropsExtendType } from '@src/omit-props-extend-type'
+import { OmitPropsByType } from '@src/omit-props-by-type'
 
-test('OmitPropsExtendType<T, Type>', () => {
+test('OmitPropsByType<T, Type>', () => {
   interface Interface {
     str: string
     num: number
     strOrNumber: string | number
   }
 
-  type Result = OmitPropsExtendType<Interface, string>
+  type Result = OmitPropsByType<Interface, string>
 
   assertType<Equals<Result, {
     num: number
