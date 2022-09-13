@@ -1,11 +1,11 @@
 import { assertType, Equals } from '@test/utils'
-import { ReplaceType } from '@src/replace-type'
+import { Replace } from '@src/replace'
 
-describe('ReplaceType<T, OldType, NewType>', () => {
+describe('Replace<T, OldType, NewType>', () => {
   test('type', () => {
     type Type = string | number
 
-    type Result = ReplaceType<Type, string, boolean>
+    type Result = Replace<Type, string, boolean>
 
     assertType<Equals<Result, boolean | number>>()
   })
@@ -13,7 +13,7 @@ describe('ReplaceType<T, OldType, NewType>', () => {
   test('union type', () => {
     type Type = string | number | boolean
 
-    type Result = ReplaceType<Type, string | number, RegExp>
+    type Result = Replace<Type, string | number, RegExp>
 
     assertType<Equals<Result, RegExp | boolean>>()
   })

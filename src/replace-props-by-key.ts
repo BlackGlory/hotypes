@@ -1,8 +1,8 @@
-import { ReplaceType } from './replace-type'
+import { Replace } from './replace'
 
 export type ReplacePropsByKey<T, Keys, OldType, NewType> = {
   [Key in keyof T]: 
     Key extends Keys
-    ? ReplaceType<T[Key], OldType, NewType>
+    ? Replace<T[Key], OldType, NewType>
     : T[Key]
 }

@@ -51,10 +51,10 @@ It is highly recommended to read test cases to make sure you understand what typ
 - OmitPropsByExactType
 - OptionalKeys
 - PickNonNever
+- Replace
 - ReplacePropsByKey
 - ReplacePropsByType
 - ReplaceAllProps
-- ReplaceType
 - ReturnTypeOfConstructor
 - Tail
 - WithDefault
