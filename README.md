@@ -2,7 +2,6 @@
 Higher-order types for TypeScript in the real world.
 
 ## Motivation
-
 > [TypeScripts type system is Turing-complete.](https://github.com/microsoft/TypeScript/issues/14833)
 
 If you don't follow the real-world use cases to create higher-order types,
@@ -14,13 +13,11 @@ Higher-order types are difficult,
 so we should not further complicate or mystify them.
 
 ## The difference with [justypes]
-
 hotypes are more like verbs or operators.
 
 [justypes]: https://www.npmjs.com/package/justypes
 
 ## Install
-
 ```sh
 npm install --save hotypes
 # or
@@ -28,7 +25,6 @@ yarn add hotypes
 ```
 
 ## API
-
 It is highly recommended to read test cases to make sure you understand what types exactly do.
 
 - Equals
