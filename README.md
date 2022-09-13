@@ -2,8 +2,9 @@
 Higher-order types for TypeScript in the real world.
 
 `hotypes` contains these types:
-- A new type is a modified version from another type.
+- A new type is a modified type from another type.
 - A new type is an operator or a function.
+- A new type is an internal type extractor.
 
 ## Install
 ```sh
@@ -44,3 +45,14 @@ yarn add hotypes
 - Tail
 - WithDefault
 - NonCallable
+- ReturnTypeOfConstructor
+- UnpackedArray
+- UnpackedArrayLike
+- UnpackedIterable
+- UnpackedAsyncIterable
+- UnpackedPromise
+- UnpackedPromiseLike
+
+*The naming convention of `Unpacked` comes from [this official article].*
+
+[this official article]: https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-8.html#type-inference-in-conditional-types
