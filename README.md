@@ -39,7 +39,7 @@ It is highly recommended to read test cases to make sure you understand what typ
 - MapNullablePropsToOptional
 - MapProps
 - MapPropsToNonOptionalByKey
-- MapPropsByKeyToOptional
+- MapPropsToOptionalByKey
 - MapPropsByKey
 - MapPropsByType
 - MapPropsExtendType
