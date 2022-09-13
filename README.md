@@ -37,7 +37,6 @@ It is highly recommended to read test cases to make sure you understand what typ
 - Last
 - MapNullablePropsToOptionalNullable
 - MapNullablePropsToOptional
-- MapProps
 - MapPropsToNonOptionalByKey
 - MapPropsToOptionalByKey
 - MapPropsByKey
@@ -54,6 +53,7 @@ It is highly recommended to read test cases to make sure you understand what typ
 - PickNonNever
 - ReplacePropsByKey
 - ReplacePropsByType
+- ReplaceAllProps
 - ReplaceType
 - ReturnTypeOfConstructor
 - Tail
