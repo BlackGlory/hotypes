@@ -15,13 +15,17 @@ yarn add hotypes
 
 ## API
 - Equals
-- FunctionKeys
 - Head
+- Last
+- Tail
+- FunctionKeys
+- NonNullableKeys
+- NullableKeys
+- OptionalKeys
 - KeysByType
 - KeysByExactType
 - KeysExcludeByType
 - KeysExcludeByExactType
-- Last
 - MapAllProps
 - MapPropsByKey
 - MapPropsByType
@@ -33,16 +37,12 @@ yarn add hotypes
 - MapPropsToNonNullable
 - Mixin
 - MixinAll
-- NonNullableKeys
-- NullableKeys
+- PickNonNever
 - OmitPropsByType
 - OmitPropsByExactType
-- OptionalKeys
-- PickNonNever
 - Replace
 - ReplacePropsByKey
 - ReplacePropsByType
-- Tail
 - WithDefault
 - NonCallable
 - ReturnTypeOfConstructor
@@ -53,6 +53,4 @@ yarn add hotypes
 - UnpackedPromise
 - UnpackedPromiseLike
 
-*The naming convention of `Unpacked` comes from [this official article].*
-
-[this official article]: https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-8.html#type-inference-in-conditional-types
+*The `Unpacked` prefix comes from [this official article](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-8.html#type-inference-in-conditional-types)*
