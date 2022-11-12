@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.5.1](https://github.com/BlackGlory/hotypes/compare/v0.5.0...v0.5.1) (2022-11-12)
+
+
+### Features
+
+* add `Flatten`, `FlattenDeep` ([d3e0916](https://github.com/BlackGlory/hotypes/commit/d3e0916d20ceb519050ca205f403c41e5b5c6590))
+
 ## [0.5.0](https://github.com/BlackGlory/hotypes/compare/v0.4.8...v0.5.0) (2022-09-13)
 
 
