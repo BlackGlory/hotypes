@@ -1,4 +1,6 @@
 export * from './equals'
+export * from './flatten-deep'
+export * from './flatten'
 export * from './function-keys'
 export * from './head'
 export * from './keys-by-type'

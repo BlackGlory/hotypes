@@ -18,6 +18,8 @@ yarn add hotypes
 - Head
 - Last
 - Tail
+- Flatten
+- FlattenDeep
 - FunctionKeys
 - NonNullableKeys
 - NullableKeys
