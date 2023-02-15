@@ -12,6 +12,11 @@ test('MapNullablePropsToOptionalNullable', () => {
 
   type Result = MapNullablePropsToOptionalNullable<Interface>
 
+  assertType<Equals<Result['str'], string>>()
+  assertType<Equals<Result['nullableStr'], string | null | undefined>>()
+  assertType<Equals<Result['null'], null | undefined>>()
+  assertType<Equals<Result['undefined'], undefined>>()
+  assertType<Equals<Result['nullOrUndefined'], null | undefined>>()
   // @ts-ignore
   assertType<Equals<Result, {
     str: string

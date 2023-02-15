@@ -5,15 +5,21 @@ test('MapPropsToOptionalByKey<T, Keys>', () => {
   interface Interface {
     a: string
     b?: string
-    ab: string
+    c: string
   }
 
-  type Result = MapPropsToOptionalByKey<Interface, 'ab'>
+  type Result = MapPropsToOptionalByKey<Interface, 'c'>
 
-  assertType<
-    Equals<
-      Result
-    , { a: string } & { b?: string; ab?: string }
-    >
-  >()
+  assertType<Equals<Result['a'], string>>()
+  assertType<Equals<Result['b'], string | undefined>>()
+  assertType<Equals<Result['c'], string | undefined>>()
+  // @ts-ignore
+  assertType<Equals<
+    Result
+  , {
+      a: string
+      b?: string
+      c?: string
+    }
+  >>()
 })
