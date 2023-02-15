@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.6.0](https://github.com/BlackGlory/hotypes/compare/v0.5.1...v0.6.0) (2023-02-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* Renamed `MapPropsToNonOptionalByKey` to `MapPropsToRequiredByKey`
+
+* rename `MapPropsToNonOptionalByKey` to `MapPropsToRequiredByKey` ([f49eb5c](https://github.com/BlackGlory/hotypes/commit/f49eb5c7fc81e8d7f3a3baf695aa5938bd0af858))
+
 ### [0.5.1](https://github.com/BlackGlory/hotypes/compare/v0.5.0...v0.5.1) (2022-11-12)
 
 
