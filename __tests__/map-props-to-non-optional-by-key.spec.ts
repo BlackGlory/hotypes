@@ -1,7 +1,7 @@
 import { assertType, Equals } from '@test/utils'
-import { MapPropsToNonOptionalByKey } from '@src/map-props-to-non-optional-by-key'
+import { MapPropsToRequiredByKey } from '@src/map-props-to-required-by-key'
 
-describe('MapPropsToNonOptionalByKey<T, Keys>', () => {
+describe('MapPropsToRequiredByKey<T, Keys>', () => {
   test('Optional<T>', () => {
     interface Interface {
       a: string
@@ -9,7 +9,7 @@ describe('MapPropsToNonOptionalByKey<T, Keys>', () => {
       c?: string
     }
 
-    type Result = MapPropsToNonOptionalByKey<Interface, 'c'>
+    type Result = MapPropsToRequiredByKey<Interface, 'c'>
     type A = Result['a']
     type B = Result['b']
     type C = Result['c']
@@ -35,7 +35,7 @@ describe('MapPropsToNonOptionalByKey<T, Keys>', () => {
       c: string | undefined
     }
 
-    type Result = MapPropsToNonOptionalByKey<Interface, 'c'>
+    type Result = MapPropsToRequiredByKey<Interface, 'c'>
     type A = Result['a']
     type B = Result['b']
     type C = Result['c']

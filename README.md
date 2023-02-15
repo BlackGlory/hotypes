@@ -34,7 +34,7 @@ yarn add hotypes
 - MapPropsByExactType
 - MapNullablePropsToOptionalNullable
 - MapNullablePropsToOptional
-- MapPropsToNonOptionalByKey
+- MapPropsToRequiredByKey
 - MapPropsToOptionalByKey
 - MapPropsToNonNullable
 - Mixin
