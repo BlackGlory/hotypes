@@ -40,6 +40,7 @@ yarn add hotypes
 - Mixin
 - MixinAll
 - PickNonNever
+- Pop
 - OmitPropsByType
 - OmitPropsByExactType
 - Replace
