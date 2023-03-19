@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.6.1](https://github.com/BlackGlory/hotypes/compare/v0.6.0...v0.6.1) (2023-03-19)
+
+
+### Features
+
+* add `Pop` ([ea0bf9a](https://github.com/BlackGlory/hotypes/commit/ea0bf9a7022d270760dbceeb153b977123847c0c))
+
 ## [0.6.0](https://github.com/BlackGlory/hotypes/compare/v0.5.1...v0.6.0) (2023-02-15)
 
 
