@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.6.2](https://github.com/BlackGlory/hotypes/compare/v0.6.1...v0.6.2) (2023-06-11)
+
+
+### Bug Fixes
+
+* export src ([6560d08](https://github.com/BlackGlory/hotypes/commit/6560d08d34fb1bfbde565fea5d492c919161926f))
+
 ### [0.6.1](https://github.com/BlackGlory/hotypes/compare/v0.6.0...v0.6.1) (2023-03-19)
 
 
