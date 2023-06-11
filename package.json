@@ -9,7 +9,8 @@
     "hot"
   ],
   "files": [
-    "lib"
+    "lib",
+    "src"
   ],
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
