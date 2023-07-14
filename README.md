@@ -41,6 +41,7 @@ yarn add hotypes
 - MixinAll
 - PickNonNever
 - Pop
+- PropByPath
 - OmitPropsByType
 - OmitPropsByExactType
 - Replace
