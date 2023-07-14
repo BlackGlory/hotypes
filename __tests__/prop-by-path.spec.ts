@@ -38,6 +38,30 @@ describe('PropByPath', () => {
   describe('shallow', () => {
     describe('array', () => {
       test('exists', () => {
+        const arr = ['foo', 'bar']
+        type Arr = typeof arr
+        type Path = [1]
+
+        type Result = PropByPath<Arr, Path>
+
+        type Expected = Arr[1]
+        assertType<Equals<Result, Expected>>()
+      })
+
+      test('does not exist', () => {
+        const arr = ['foo', 'bar']
+        type Arr = typeof arr
+        type Path = [2]
+
+        type Result = PropByPath<Arr, Path>
+
+        type Expected = Arr[2] // string
+        assertType<Equals<Result, Expected>>()
+      })
+    })
+
+    describe('tuple', () => {
+      test('exists', () => {
         type Arr = ['foo', 'bar']
         type Path = [1]
 
@@ -53,7 +77,6 @@ describe('PropByPath', () => {
 
         type Result = PropByPath<Arr, Path>
 
-        // type Expected = Arr[2]
         type Expected = undefined
         assertType<Equals<Result, Expected>>()
       })
