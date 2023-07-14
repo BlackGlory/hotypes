@@ -37,6 +37,17 @@ describe('PropByPath', () => {
 
   describe('shallow', () => {
     describe('array', () => {
+      test('empty path', () => {
+        const arr = ['foo', 'bar']
+        type Arr = typeof arr
+        type Path = []
+
+        type Result = PropByPath<Arr, Path>
+
+        type Expected = Arr
+        assertType<Equals<Result, Expected>>()
+      })
+
       test('exists', () => {
         const arr = ['foo', 'bar']
         type Arr = typeof arr
@@ -61,6 +72,16 @@ describe('PropByPath', () => {
     })
 
     describe('tuple', () => {
+      test('empty path', () => {
+        type Arr = ['foo', 'bar']
+        type Path = []
+
+        type Result = PropByPath<Arr, Path>
+
+        type Expected = Arr
+        assertType<Equals<Result, Expected>>()
+      })
+
       test('exists', () => {
         type Arr = ['foo', 'bar']
         type Path = [1]
@@ -83,6 +104,21 @@ describe('PropByPath', () => {
     })
 
     describe('class', () => {
+      test('empty path', () => {
+        class Class {
+          foo = 1
+          bar = 2
+        }
+        const instance = new Class()
+        type Instance = typeof instance
+        type Path = []
+
+        type Result = PropByPath<Instance, Path>
+
+        type Expected = Instance
+        assertType<Equals<Result, Expected>>()
+      })
+
       test('exists', () => {
         class Class {
           foo = 1
@@ -116,6 +152,19 @@ describe('PropByPath', () => {
     })
 
     describe('interface', () => {
+      test('empty path', () => {
+        interface Interface {
+          foo: 1
+          bar: 2
+        }
+        type Path = []
+
+        type Result = PropByPath<Interface, Path>
+
+        type Expected = Interface
+        assertType<Equals<Result, Expected>>()
+      })
+
       test('exists', () => {
         interface Interface {
           foo: 1
