@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.6.4](https://github.com/BlackGlory/hotypes/compare/v0.6.3...v0.6.4) (2023-10-02)
+
+
+### Features
+
+* add `ParametersOfConstructor` ([f5e3bed](https://github.com/BlackGlory/hotypes/commit/f5e3bed57ee78bdafe920b7eabbb6900c3389179))
+
 ### [0.6.3](https://github.com/BlackGlory/hotypes/compare/v0.6.2...v0.6.3) (2023-07-14)
 
 
