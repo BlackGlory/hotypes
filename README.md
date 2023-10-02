@@ -50,6 +50,7 @@ yarn add hotypes
 - WithDefault
 - NonCallable
 - ReturnTypeOfConstructor
+- ParametersOfConstructor
 - UnpackedArray
 - UnpackedArrayLike
 - UnpackedIterable
