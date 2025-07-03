@@ -1,7 +1,7 @@
 import { assertType, Equals } from '@test/utils'
 import { WithDefault } from '@src/with-default'
 
-describe('withDefault<T, Default>', () => {
+describe('WithDefault<T, Default>', () => {
   describe('T is non-nullable', () => {
     it('returns T', () => {
       type Result = WithDefault<string, number>
