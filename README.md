@@ -57,7 +57,7 @@ yarn add hotypes
 - UnpackedAsyncIterable
 - UnpackedPromise
 - UnpackedPromiseLike
-- ToType
+- ToStruct
 - Prettify
 
 *The `Unpacked` prefix comes from [this official article](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-8.html#type-inference-in-conditional-types)*

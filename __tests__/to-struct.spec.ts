@@ -1,15 +1,15 @@
-import { ToType } from '@src/to-type'
+import { ToStruct } from '@src/to-struct'
 import { assertType, Equals } from '@test/utils'
 
-describe('ToType<T>', () => {
+describe('ToStruct<T>', () => {
   test('primitive', () => {
-    assertType<Equals<ToType<string>, string>>()
-    assertType<Equals<ToType<number>, number>>()
-    assertType<Equals<ToType<boolean>, boolean>>()
+    assertType<Equals<ToStruct<string>, string>>()
+    assertType<Equals<ToStruct<number>, number>>()
+    assertType<Equals<ToStruct<boolean>, boolean>>()
   })
 
   test('function', () => {
-    type Result = ToType<() => string>
+    type Result = ToStruct<() => string>
 
     assertType<Equals<Result, () => string>>()
   })
@@ -21,7 +21,7 @@ describe('ToType<T>', () => {
         bar: number
       }
 
-      type Result = ToType<Type>
+      type Result = ToStruct<Type>
 
       assertType<Equals<
         Result
@@ -37,7 +37,7 @@ describe('ToType<T>', () => {
         foo(): string
       }
 
-      type Result = ToType<Type>
+      type Result = ToStruct<Type>
 
       assertType<Equals<
         Result
@@ -52,7 +52,7 @@ describe('ToType<T>', () => {
         [key: string]: string
       }
 
-      type Result = ToType<Type>
+      type Result = ToStruct<Type>
 
       assertType<Equals<
         Result
@@ -70,7 +70,7 @@ describe('ToType<T>', () => {
         bar: number
       }
 
-      type Result = ToType<Interface>
+      type Result = ToStruct<Interface>
 
       assertType<Equals<
         Result
@@ -86,7 +86,7 @@ describe('ToType<T>', () => {
         foo(): string
       }
 
-      type Result = ToType<Interface>
+      type Result = ToStruct<Interface>
 
       assertType<Equals<
         Result
@@ -101,7 +101,7 @@ describe('ToType<T>', () => {
         [key: string]: string
       }
 
-      type Result = ToType<Interface>
+      type Result = ToStruct<Interface>
 
       assertType<Equals<
         Result
