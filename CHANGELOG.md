@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.6.5](https://github.com/BlackGlory/hotypes/compare/v0.6.4...v0.6.5) (2025-07-03)
+
+
+### Features
+
+* add `ToType`, `Prettify` ([e38db3c](https://github.com/BlackGlory/hotypes/commit/e38db3c3f59c0d532a054dba2d546bdafc18757a))
+
 ### [0.6.4](https://github.com/BlackGlory/hotypes/compare/v0.6.3...v0.6.4) (2023-10-02)
 
 
