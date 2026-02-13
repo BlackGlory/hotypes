@@ -20,7 +20,7 @@ test('MapNullablePropsToOptionalNullable', () => {
   // @ts-ignore
   assertType<Equals<Result, {
     str: string
-    nullableStr?: string | null
+    nullableStr?: string | null | undefined
     null?: null
     undefined?: undefined
     nullOrUndefined?: null
