@@ -14,8 +14,24 @@ describe('ToStruct<T>', () => {
     assertType<Equals<Result, () => string>>()
   })
 
-  describe('type', () => {
-    test('variable', () => {
+  test('array', () => {
+    type Type = string[]
+
+    type Result = ToStruct<Type>
+
+    assertType<Equals<Result, string[]>>()
+  })
+
+  test('tuple', () => {
+    type Type = [string, number]
+
+    type Result = ToStruct<Type>
+
+    assertType<Equals<Result, [string, number]>>()
+  })
+
+  describe('struct', () => {
+    test('property', () => {
       type Type = {
         foo: string
         bar: number
