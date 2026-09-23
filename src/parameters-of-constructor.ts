@@ -1,4 +1,5 @@
+/**
+ * @deprecated Please use the built-in utility type `ConstructorParameters`.
+ */
 export type ParametersOfConstructor<T extends new (...args: any) => any> =
-  T extends new (...args: infer Args) => any
-  ? Args
-  : never
+  ConstructorParameters<T>
